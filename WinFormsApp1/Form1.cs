@@ -105,7 +105,7 @@ namespace WinFormsApp1
             lbNume.ForeColor = Color.Black;
             tbNume.ForeColor = Color.Black;
             tbCantitate.ForeColor = Color.Black;
-            tbNume.ForeColor = Color.Black; 
+            
             
         }
         private bool ValidareDateChar(string aux)
@@ -256,6 +256,7 @@ namespace WinFormsApp1
                 rtbAfisare.AppendText("Produsul cautat nu exista in patiserie!");
                 rtbAfisare.AppendText(Environment.NewLine);
             }
+            lbNume.ForeColor = Color.Black;
         }
     }
 }
