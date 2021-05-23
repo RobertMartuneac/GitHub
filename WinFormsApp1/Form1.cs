@@ -134,6 +134,7 @@ namespace WinFormsApp1
 
             if (String.IsNullOrEmpty(aux))
                 return a;
+
             return aux;
         }
 
